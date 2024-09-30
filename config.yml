@@ -7,7 +7,11 @@ description: 'A fast, clean Hugo theme'
 homepage: 'https://hugo-ladder.pages.dev'
 defaultContentLanguage: 'en'
 googleAnalytics: G-xxx
-paginate: 10
+#paginate: 10
+pagination:
+  disableAliases: false
+  pagerSize: 10
+  path: page
 params:
   brand: HOME
   avatarURL: /images/avatar.png
